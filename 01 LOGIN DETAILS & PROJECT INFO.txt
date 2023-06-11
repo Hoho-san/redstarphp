@@ -1,5 +1,4 @@
 
-**Customer Verification should be done by accessing the database and changing its active status**
 
 **Admin Login Details**
 
