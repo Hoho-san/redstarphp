@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Helvetica";
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
 }
 
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica";
+    font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -912,6 +912,11 @@ ul.prod-slider li a {
 
 ul.nav-tabs {
     margin-top: 50px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
 }
 .product .p-title h2 {
     color: #000000;

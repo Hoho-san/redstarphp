@@ -74,7 +74,12 @@ foreach ($result as $row) {
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
 
     <?php
 
@@ -252,7 +257,7 @@ foreach ($result as $row) {
                         <div class="form-group">
                             <input type="text" class="form-control search-top" placeholder="Search here" name="search_text">
                         </div>
-                        <button type="submit" class="btn btn-danger">Search</button>
+                        <button type="submit" class="btn btn-danger fa-solid fa-magnifying-glass"></button>
                     </form>
                 </div>
             </div>
@@ -266,10 +271,10 @@ foreach ($result as $row) {
                     <div class="menu-container">
                         <div class="menu">
                             <ul>
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="faq.php">FAQ</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a class="fa-solid fa-house" href="index.php"> Home</a></li>
+                                <li><a class="fa-regular fa-building" href="about.php"> About Us</a></li>
+                                <li><a class="fa-solid fa-question" href="faq.php"> FAQ</a></li>
+                                <li><a class="fa-regular fa-phone" href="contact.php"> Contact</a></li>
                             </ul>
                         </div>
                     </div>
