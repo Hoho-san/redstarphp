@@ -81,7 +81,7 @@
 
 
 
-<div class="service bg-gray">
+<div data-aos="zoom-in-left" data-aos-offset="200" class="service bg-gray">
     <div class="container">
         <div class="row">
             <?php
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div data-aos="zoom-in-left" data-aos-offset="200" class="row">
             <div class="col-md-12">
                 <div class="product-carousel">
                     <?php

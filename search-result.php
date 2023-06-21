@@ -32,7 +32,7 @@ if (!isset($_REQUEST['search_text'])) {
             <div class="col-md-12">
                 <div class="product product-cat">
 
-                    <div class="row">
+                    <div  data-aos="zoom-in-up" data-aos-offset="200" class="row">
                         <?php
                         $search_text = '%' . $search_text . '%';
                         ?>

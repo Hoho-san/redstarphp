@@ -71,7 +71,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 copyright">
-                <p>&copy; <?php echo date('Y'); ?> Copyright Redstar - Developed By <a href="https://github.com/Hoho-san" target="_blank" style="text-decoration: none; font-weight:bold;">Hoho-san</a> </p>
+                <p>&copy; <?php echo date('Y'); ?> Copyright Redstar - Developed By <a href="https://github.com/Hoho-san" target="_blank" style="text-decoration: none; font-weight:bold;">Our Team</a> </p>
 
             </div>
         </div>
@@ -99,6 +99,11 @@
 <script src="assets/js/bootstrap-touch-slider.js"></script>
 <script src="assets/js/select2.full.min.js"></script>
 <script src="assets/js/custom.js"></script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 

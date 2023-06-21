@@ -9,7 +9,7 @@
 <div class="page" style="height: 55vh;">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div  data-aos="zoom-in-up" data-aos-offset="200" class="col-md-12">
                 <div class="panel-group" id="faqAccordion">
                     <?php
                     $statement = $pdo->prepare("SELECT * FROM tbl_faq");

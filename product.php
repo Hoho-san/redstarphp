@@ -75,7 +75,7 @@ if (isset($_POST['form_add_to_cart'])) {
                 $_SESSION['cart_p_name'][$new_key] = $_POST['p_name'];
                 $_SESSION['cart_p_featured_photo'][$new_key] = $_POST['p_featured_photo'];
 
-                $success_message1 = 'Product is added to the cart successfully!';
+                echo "<script>alert('Product Added Successfully'); </script>";
             }
         } else {
             $_SESSION['cart_p_id'][1] = $_REQUEST['id'];

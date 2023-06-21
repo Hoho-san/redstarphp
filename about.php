@@ -8,7 +8,7 @@
 
 <div class="page">
     <div class="container">
-        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
+        <div data-aos="zoom-in-left" data-aos-offset="200" style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
             <div>
                 <iframe style="width: 500px; height:300px;" src="https://www.youtube.com/embed/sGho_JThB5M?autoplay=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
@@ -18,7 +18,7 @@
                 </p>
             </div>
         </div>
-        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
+        <div data-aos="zoom-in-left" data-aos-offset="200" style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
             <div style="width: 50%; font-size: 2rem; padding: 10px; margin: 2rem; display: inline;">
                 <p>
                     At Redstar, our mission is to create high-quality electric bikes that combine style, performance, and sustainability. We strive to empower riders of all skill levels to enjoy the benefits of cycling while reducing their carbon footprint. We're committed to developing innovative solutions that enhance your daily commute, outdoor adventures, and everything in between.
@@ -28,7 +28,7 @@
                 <img style="width: 425px; height:300px;" src="assets/img/about.jpg" alt="">
             </div>
         </div>
-        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
+        <div data-aos="zoom-in-left" data-aos-offset="200" style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom:75px;">
             <div>
                 <img style="width: 415px; height:300px;" src="assets/img/RSimage01.jpg" alt="">
             </div>

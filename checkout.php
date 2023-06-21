@@ -23,7 +23,10 @@ if (!isset($_SESSION['cart_p_id'])) {
 
                 <?php if (!isset($_SESSION['customer'])) : ?>
                     <div>
-                        <a href="login.php" class="btn btn-md btn-danger ">Please login to checkout</a>
+                        <?php
+                        echo "<script>alert('Please login first!'); </script>"; 
+                        echo "<script>window.location.href='login.php'; </script>";
+                        ?>
                     </div>
                 <?php else : ?>
 
